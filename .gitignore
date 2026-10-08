@@ -1,0 +1,9 @@
+# Local tooling — never publish
+.claude/
+.remember/
+.mcp.json
+.ignore
+.DS_Store
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
