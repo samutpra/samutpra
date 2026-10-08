@@ -49,3 +49,10 @@
 **AI**
 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+
+## 🐍 Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samutpra/samutpra/output/github-snake-dark.svg">
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/samutpra/samutpra/output/github-snake.svg">
+</picture>
