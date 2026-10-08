@@ -50,9 +50,14 @@
 
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
-## 🐍 Snake
+## 🎮 Contribution games
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samutpra/samutpra/output/github-snake-dark.svg">
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/samutpra/samutpra/output/github-snake.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samutpra/samutpra/output/pacman-contribution-graph-dark.svg">
+  <img alt="Pac-Man eating my contributions" src="https://raw.githubusercontent.com/samutpra/samutpra/output/pacman-contribution-graph.svg">
 </picture>
