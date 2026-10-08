@@ -1,4 +1,4 @@
-name: Generate contribution games
+name: Generate snake
 
 on:
   schedule:
@@ -13,10 +13,8 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 5
     steps:
-      # Snake and Pac-Man write into the same dist/ so a single publish keeps both;
-      # separate publishes would overwrite each other on the output branch.
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
@@ -24,12 +22,6 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Generate Pac-Man SVGs
-        uses: abozanona/pacman-contribution-graph@d258e3fb01511c1ff4fe6418408ede37b2ad4935 # v5.0.0
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: pacman
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
